@@ -124,7 +124,7 @@ def create_word_report(feedback):
 # Main app page
 def main_app():
     st.title("Case Study Evaluation Designed for Agile Program Manager")
-    st.write("Upload the Case Study & Candidate Response-Get Gen AI Powered Evaluation with Summary & Ratings!")
+    st.write("Upload the Case Study & Candidate Response-Get AI Powered Evaluation with Summary & Ratings!")
 
     uploaded_question_doc = st.file_uploader("Upload Case Study Document (PDF)", type=["pdf"], key="question_doc")
     uploaded_solution_docs = st.file_uploader("Upload Solution Documents (PPT)", type=["pptx"], accept_multiple_files=True, key="solution_docs")
