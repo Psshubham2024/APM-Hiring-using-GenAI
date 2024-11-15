@@ -1,16 +1,5 @@
-requests
-streamlit 
-python-docx 
-PyPDF2
-python-pptx
 streamlit
-docx
 python-docx
 PyPDF2
-textblob
+python-pptx
 requests
-threading
-queue
-io
-json
-time
