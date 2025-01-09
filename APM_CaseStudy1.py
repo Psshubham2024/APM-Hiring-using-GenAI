@@ -11,7 +11,7 @@ from threading import Thread
 
 # Define the API endpoint and access token
 API_URL = "https://api.psnext.info/api/chat"
-PSCHATACCESSTOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJpZCI6MzcxMzcsInJvbGVzIjpbImRlZmF1bHQiXSwicGF0aWQiOiJjMmZlNGQ5OS0wOTUzLTRiZWQtYTE0ZC0xNDBhMTMyMDc4NWIifSwiaWF0IjoxNzMyMTAwNjkyLCJleHAiOjE3MzQ2OTI2OTJ9.ghTE_ViQEmPfUjXOTD-gDPqZSK_jCr6Vv_x44ADpPEI"  # Replace with your actual access token
+PSCHATACCESSTOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJpZCI6MzcxMzcsInJvbGVzIjpbImRlZmF1bHQiXSwicGF0aWQiOiI2ZGUxNDUxMy1jYmI3LTQ0NmYtOTM3ZS0xYzhkNTZiNjBhZDUifSwiaWF0IjoxNzM2NDI5NjI3LCJleHAiOjE3MzkwMjE2Mjd9.HaeQwApGKUreK46i-oprwl76y2znYgVQZ0jozaUCmyc"  # Replace with your actual access token
 
 # Rate limiting variables
 requests_per_minute = 5  # Set your API rate limit here
